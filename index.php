@@ -20,11 +20,10 @@
 <body class="bg-white text-black font-sans p-6">
     <main class="max-w-[1100px] mx-auto flex flex-col gap-8">
 
-        <!--decoded-->
         <section class="flex-1 flex flex-col gap-4">
             <div class="flex items-center justify-between mb-2">
                 <h2 class="text-lg font-normal text-black flex items-center gap-2">
-                    <span class="font-extrabold">Decoded</span>
+                    <span class="font-extrabold">Encode</span>
                 </h2>
             </div>
 
@@ -75,10 +74,9 @@
             </div>
         </section>
 
-        <!--encoded -->
         <section class="flex-1">
             <h2 class="text-lg font-normal text-black mb-1 flex items-center gap-2">
-                <span class="font-extrabold">Encoded</span>
+                <span class="font-extrabold">Decode</span>
             </h2>
             <textarea
                 id="jwtInput"
